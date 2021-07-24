@@ -46,5 +46,3 @@
 		</tbody>
 	</table>
 </div>
-<!--dashboard ends -->
-<?php include 'admin_footer.php';?>

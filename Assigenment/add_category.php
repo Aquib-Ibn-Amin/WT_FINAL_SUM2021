@@ -1,10 +1,11 @@
 <?php
+ include 'admin_header.php';
 include 'Controllers\CategoryController.php';
 ?>
 
 <div align="center" >
 <h5> <?php echo $err_db;?> </h5>
-<form >
+<form action="" method="post">
 <div>
 <h4>Name :</h4>
 <input name="name"  value="<?php echo $name ?>" type="text"  placeholder="Enter  Name" >
