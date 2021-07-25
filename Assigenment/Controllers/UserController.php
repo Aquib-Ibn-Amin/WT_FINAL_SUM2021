@@ -105,7 +105,7 @@ elseif(isset($_POST["btn_login"])){
 }
 
 function insertUser($name,$uname,$email,$pass){
-	$query="insert into users values (NULL,'$name','$uname','$email','$pass')";
+	$query="insert into users values (NULL,'$name','$uname','$pass')";
 	return execute($query);
 }
 function authenticateUser($uname,$pass)
