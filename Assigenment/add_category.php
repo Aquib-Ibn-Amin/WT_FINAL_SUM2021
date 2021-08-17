@@ -8,7 +8,7 @@ include 'Controllers\CategoryController.php';
 <form action="" method="post">
 <div>
 <h4>Name :</h4>
-<input name="name"  value="<?php echo $name ?>" type="text"  placeholder="Enter  Name" >
+<input name="name" onfocusout="checkCategoryname(this)" value="<?php echo $name ?>" type="text"  placeholder="Enter  Name" >
 	    <br><span style="color:red;"><?php echo $err_name; ?></span>
 </div>
 <div>
@@ -16,4 +16,5 @@ include 'Controllers\CategoryController.php';
 </div>
 </form>
 </div>
+<script src="js/category.js"> </script>
 

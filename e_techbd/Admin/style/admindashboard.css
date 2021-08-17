@@ -1,0 +1,296 @@
+*{
+font-family: sans-serif;
+}
+
+#menubar{
+    /* position: absolute; */
+    /* float: left; */
+    /* border: 2px solid red; */
+    /* background-color: #0583F2; */
+    /* height: 80px; */
+    /* width: 100%; */
+    /* height: 30px;
+    margin: 30px; */
+    /* padding: 50px 50px 150px 50px; */
+    /* background-color: red; */
+}
+
+
+#manageCate{
+  display: none;
+}
+
+#manageEmployees{
+  display: none;
+}
+
+#manageProducts{
+  display: none;
+}
+
+#manageReport{
+  display: none;
+}
+
+#manageAdmin{
+  display: none;
+
+}
+
+/* #manageAdmin a{
+  margin: 0px 10px 90px 0px;
+
+} */
+#manageSalary{
+  display: none;
+}
+
+#manageVoucher{
+  display: none;
+}
+
+
+
+#settingmenu{
+  float: right;
+  /* position: absolute; */
+  /* top: 20px; */
+}
+#logo{
+  float: left;
+  /* border: 2px solid red; */
+
+
+  /* position: absolute; */
+  /* top: 20px; */
+}
+
+#welcomeUname{
+    position: absolute;
+    float: left;
+    margin: 0px 0px 0px 1200px;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    color: #2196f3;
+    /* margin: 0px;
+    padding: 0px; */
+    /* border: 2px solid red; */
+
+}
+#menubar a{
+  text-decoration: none;
+    padding: 8px 18px;
+    /* margin: 100px 10px 90px 0px; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+  background-color:#0583F2;
+}
+
+#menubar a:hover{
+  background-color:#0e68b8;
+}
+
+.btn_menu button{
+  /* background-color: #4CAF50; /* Green */ */
+  /* border: 1px solid green; */
+  color: white;
+  padding: 8px 18px 8px 18px;
+  text-align: center;
+  margin: 0px 0px 8px 0px;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: None;
+  /* color: black; */
+  color: white;
+background-color:#0583F2;
+
+
+}
+.btn_menu button:hover{
+  background-color:#0e68b8;
+  /* font-weight: bold; */
+}
+
+#btn_dash{
+  /* text-decoration: none;
+    padding: 5px 18px 0px 0px;
+    /* margin: 100px 10px 90px 0px; */
+    /* font-size: 4px; */
+    /* cursor: pointer;
+    border-radius: 6px;
+    color: white;
+  background-color:#0583F2; */ */
+}
+#menubar{
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 220px;
+  top: 250px;
+  /* border: 2px solid red; */
+}
+#menubar button{
+  /* border: 2px solid red; */
+  /* padding: 5px 0px 0px 0px; */
+}
+#btn_dash{
+  padding: 0px 0px 0px 0px;
+float: left;
+padding: 10px 0px 0px 0px;
+
+}
+
+#btn_add_admin a{
+  padding: 8px 47px 8px 18px;
+  text-align: center;
+}
+#btn_add_employees a{
+  padding: 8px 47px 8px 18px;
+  text-align: center;
+}
+
+
+
+#btn_emp_list_for_pay a{
+  padding: 8px 58px 8px 18px;
+  text-align: center;
+}
+
+#btn_paid_list a{
+  padding: 8px 52px 8px 18px;
+  text-align: center;
+}
+
+#btn_all_categories a{
+  padding: 8px 41px 8px 18px;
+  text-align: center;
+}
+
+#btn_add_category a{
+  padding: 8px 45px 8px 18px;
+  text-align: center;
+}
+
+
+
+#btn_all_product a{
+  padding: 8px 20px 8px 18px;
+  text-align: center;
+}
+
+#btn_add_product a{
+  padding: 8px 52px 8px 18px;
+  text-align: center;
+}
+
+
+
+
+#btn_employees_report a{
+  padding: 8px 40px 8px 18px;
+  text-align: center;
+}
+
+#btn_salary_report a{
+  padding: 8px 30px 8px 18px;
+  text-align: center;
+}
+
+.numbar{
+  margin: 150px;
+  font-size: 35px;
+}
+
+.card_1{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #2FDD9B;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.card_1:hover{
+  background-color: #20c586;
+}
+.card_2{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color:#2FC8DD;
+	color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+
+}
+
+.card_2:hover{
+  background-color: #20b2c5;
+}
+.card_3{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color:#FFC300;
+	color: #F7F9F9;;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.card_3:hover{
+  background-color: #e6b000;
+}
+.card_4{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius:  4px;
+  background-color: #ff471a;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+/* #8533ff */
+.card_4:hover{
+  background-color: #ff3300;
+}
+.card_5{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #751aff;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.card_5:hover{
+  background-color: #6600ff;
+}
+
+.card_6{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #0066ff;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.card_6:hover{
+  background-color: #005ce6;
+}

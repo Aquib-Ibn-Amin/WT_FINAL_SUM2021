@@ -53,5 +53,13 @@ if(empty($_POST["name"])){
 		return execute($query);
 	}
 	
+	function checkCategoryname($name){
+	$query="select * from category where  Name='$name'";	
+	$rs=get($query);
+	if(count($rs)>0){
+		return true;
+	}
+	return false;
+	}
 	
 ?>
